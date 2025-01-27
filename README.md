@@ -1,10 +1,9 @@
-# Covid Visualization
-## COVID-19 Analysis Dashboard
+# Logistic Regression Churn Analysis
 
-This repository contains a comprehensive COVID-19 analysis dashboard project built using Python, SQL Server, and various data analytics tools. The dashboard pulls real-time data from publicly available sources through APIs, processes and stores it in a SQL Server database, and visualizes key COVID-19 metrics, such as case numbers, death rates, and vaccination progress.
+This repository contains comprehensive files for retrieving data from a Kaggle Dataset to be used in a logistic regression model to determine customer churn rates. The analysis and appropriate visuals will be displayed in the visuals folder.
 
 ### Technologies Used:
 Python (for API requests, data processing)
-SQL Server (for database storage)
+SQL Server (for data storage)
 Power BI / Tableau (for dashboard visualizations)
 DBT (for data transformation and quality checks)
