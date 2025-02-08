@@ -4,9 +4,6 @@ This repository contains comprehensive files for retrieving data from a Kaggle D
 
 ### Technologies Used:
 - Python (for API requests, data processing)
-- SQL Server (for data storage)
-- Power BI / Tableau (for dashboard visualizations)
-- DBT (for data transformation and quality checks)
 
 ### Dataset Information:
 - Customers who left within the last month – the column is called Churn
