@@ -1,0 +1,1 @@
+SELECT SeniorCitizen FROM dbo.raw_ChurnData

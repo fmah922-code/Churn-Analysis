@@ -1,0 +1,1 @@
+SELECT Contract FROM dbo.raw_ChurnData

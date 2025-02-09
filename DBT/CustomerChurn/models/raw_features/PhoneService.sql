@@ -1,0 +1,1 @@
+SELECT PhoneService FROM dbo.raw_ChurnData

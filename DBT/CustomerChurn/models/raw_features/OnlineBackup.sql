@@ -1,0 +1,1 @@
+SELECT OnlineBackup FROM dbo.raw_ChurnData

@@ -1,0 +1,1 @@
+SELECT DeviceProtection FROM dbo.raw_ChurnData

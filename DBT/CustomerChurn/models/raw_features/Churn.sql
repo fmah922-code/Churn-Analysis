@@ -1,0 +1,1 @@
+SELECT Churn FROM dbo.raw_ChurnData

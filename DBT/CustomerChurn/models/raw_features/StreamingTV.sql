@@ -1,0 +1,1 @@
+SELECT StreamingTV FROM dbo.raw_ChurnData

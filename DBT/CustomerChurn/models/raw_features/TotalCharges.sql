@@ -1,0 +1,1 @@
+SELECT TotalCharges FROM dbo.raw_ChurnData

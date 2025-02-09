@@ -1,0 +1,1 @@
+SELECT gender FROM dbo.raw_ChurnData

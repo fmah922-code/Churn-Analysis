@@ -1,0 +1,1 @@
+SELECT OnlineSecurity FROM dbo.raw_ChurnData

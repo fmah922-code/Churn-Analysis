@@ -1,0 +1,1 @@
+SELECT tenure FROM dbo.raw_ChurnData

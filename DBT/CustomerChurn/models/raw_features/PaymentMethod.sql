@@ -1,0 +1,1 @@
+SELECT PaymentMethod FROM dbo.raw_ChurnData

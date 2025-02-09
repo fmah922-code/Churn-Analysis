@@ -1,0 +1,1 @@
+SELECT PaperlessBilling FROM dbo.raw_ChurnData

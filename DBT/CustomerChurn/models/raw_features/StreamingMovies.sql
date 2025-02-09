@@ -1,0 +1,1 @@
+SELECT StreamingMovies FROM dbo.raw_ChurnData

@@ -1,0 +1,1 @@
+SELECT MonthlyCharges FROM dbo.raw_ChurnData

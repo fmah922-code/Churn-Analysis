@@ -1,0 +1,1 @@
+SELECT InternetService FROM dbo.raw_ChurnData

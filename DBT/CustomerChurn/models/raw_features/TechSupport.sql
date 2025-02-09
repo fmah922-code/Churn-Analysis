@@ -1,0 +1,1 @@
+SELECT TechSupport FROM dbo.raw_ChurnData
