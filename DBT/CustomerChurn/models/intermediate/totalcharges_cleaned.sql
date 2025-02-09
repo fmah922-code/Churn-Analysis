@@ -1,4 +1,4 @@
 {{ config(tags=["transformation"], schema = 'clean') }}
 
-SELECT *
-FROM {{source('TotalCharges')}}
+select * from {{ ref('TotalCharges') }}
+
