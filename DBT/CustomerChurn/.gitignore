@@ -1,5 +1,5 @@
 target/
 dbt_packages/
 logs/
-user.yml/
+.user.yml/
 profiles.yml/
