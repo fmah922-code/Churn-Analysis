@@ -1,4 +1,4 @@
-{{ config(tags=["transformation"], schema = 'clean') }}
+{{ config(tags=["transformation"], schema = 'clean', materialized='ephemeral') }}
 
 
 SELECT 

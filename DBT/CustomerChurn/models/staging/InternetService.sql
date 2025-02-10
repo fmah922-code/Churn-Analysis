@@ -1,4 +1,4 @@
-{{ config(tags=["independent"]) }}
+{{ config(tags=["independent"], materialized='ephemeral') }}
 
 SELECT 
 CustomerId,
