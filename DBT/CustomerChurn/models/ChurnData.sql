@@ -1,4 +1,4 @@
-{{ config(tags=["transformation"], schema = 'final_dataset', materialized='table') }}
+{{ config(tags=["transformation"], schema = 'dbo', materialized='table') }}
 
 
 SELECT 
