@@ -17,8 +17,8 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 - SQL Server (for Data storage)
 - PowerBI (for Visuals)
 
-#### Lineage of Columns used in the final dataset for training 
+#### Lineage of columns used in the final dataset for training 
 ![image](https://github.com/user-attachments/assets/6bdfce1d-f74f-4465-885d-055a28f4fb2b) 
 
-#### Lineage of Columns excluded due to multicollinearity
+#### Lineage of columns excluded due to multicollinearity
 ![image](https://github.com/user-attachments/assets/05904784-8e0c-46b6-8edf-2db9ec02be14)
