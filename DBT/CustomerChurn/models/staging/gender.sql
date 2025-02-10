@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT gender FROM dbo.raw_ChurnData
+SELECT 
+CustomerId,
+gender FROM dbo.raw_ChurnData

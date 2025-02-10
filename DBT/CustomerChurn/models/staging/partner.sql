@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT Partner FROM dbo.raw_ChurnData
+SELECT CustomerID,
+Partner FROM dbo.raw_ChurnData

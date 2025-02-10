@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT OnlineBackup FROM dbo.raw_ChurnData
+SELECT CustomerID,
+OnlineBackup FROM dbo.raw_ChurnData

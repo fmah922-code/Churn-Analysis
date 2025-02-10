@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT TotalCharges FROM dbo.raw_ChurnData
+SELECT 
+CustomerId,
+TotalCharges FROM dbo.raw_ChurnData

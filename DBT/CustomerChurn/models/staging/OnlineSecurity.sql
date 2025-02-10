@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT OnlineSecurity FROM dbo.raw_ChurnData
+SELECT CustomerID,
+OnlineSecurity FROM dbo.raw_ChurnData

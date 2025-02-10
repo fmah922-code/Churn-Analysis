@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT MultipleLines FROM dbo.raw_ChurnData
+SELECT 
+CustomerId,
+MultipleLines FROM dbo.raw_ChurnData

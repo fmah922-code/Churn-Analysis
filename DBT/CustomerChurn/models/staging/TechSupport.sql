@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT TechSupport FROM dbo.raw_ChurnData
+SELECT 
+CustomerID,
+TechSupport FROM dbo.raw_ChurnData

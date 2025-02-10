@@ -1,3 +1,6 @@
 {{ config(tags=["independent"]) }}
 
-SELECT tenure FROM dbo.raw_ChurnData
+SELECT 
+CustomerID,
+tenure 
+FROM dbo.raw_ChurnData

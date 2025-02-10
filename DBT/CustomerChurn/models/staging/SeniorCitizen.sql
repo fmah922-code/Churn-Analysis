@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT SeniorCitizen FROM dbo.raw_ChurnData
+SELECT CustomerID,
+SeniorCitizen FROM dbo.raw_ChurnData

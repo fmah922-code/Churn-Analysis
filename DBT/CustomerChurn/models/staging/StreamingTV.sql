@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT StreamingTV FROM dbo.raw_ChurnData
+SELECT CustomerID,
+StreamingTV FROM dbo.raw_ChurnData

@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT InternetService FROM dbo.raw_ChurnData
+SELECT 
+CustomerId,
+InternetService FROM dbo.raw_ChurnData

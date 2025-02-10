@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT PaymentMethod FROM dbo.raw_ChurnData
+SELECT CustomerID,
+PaymentMethod FROM dbo.raw_ChurnData

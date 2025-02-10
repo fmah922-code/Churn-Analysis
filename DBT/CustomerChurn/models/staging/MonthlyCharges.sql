@@ -1,3 +1,5 @@
 {{ config(tags=["independent"]) }}
 
-SELECT MonthlyCharges FROM dbo.raw_ChurnData
+SELECT 
+CustomerId,
+MonthlyCharges FROM dbo.raw_ChurnData

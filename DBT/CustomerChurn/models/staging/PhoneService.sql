@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT PhoneService FROM dbo.raw_ChurnData
+SELECT CustomerID,
+PhoneService FROM dbo.raw_ChurnData

@@ -1,3 +1,4 @@
 {{ config(tags=["independent"]) }}
 
-SELECT StreamingMovies FROM dbo.raw_ChurnData
+SELECT CustomerID,
+StreamingMovies FROM dbo.raw_ChurnData
