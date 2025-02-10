@@ -15,6 +15,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 - Python (for API requests, data processing, data transforming)
 - DBT (transformation documentation)
 - SQL Server (for Data storage)
+- PowerBI (for Visuals)
 
 #### Lineage of Columns used in the final dataset for training 
 ![image](https://github.com/user-attachments/assets/6bdfce1d-f74f-4465-885d-055a28f4fb2b) 
