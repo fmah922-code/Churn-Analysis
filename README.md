@@ -1,6 +1,6 @@
-# Logistic Regression Churn Analysis
+# Logistic Regression vs. Decision Tree for Churn Analysis 
 
-This repository contains comprehensive files for retrieving data from a Kaggle Dataset to be used in a logistic regression model to determine customer churn rates. The analysis and appropriate visuals will be displayed in the visuals folder.
+This repository contains comprehensive files for retrieving data from a Kaggle Dataset to be used in a logistic regression model and a decision tree model to determine customer churn rates. The analysis and appropriate visuals will be displayed in the visuals folder.
 
 ### Dataset Information:
 - Customers who left within the last month – the column is called Churn
