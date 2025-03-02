@@ -2,26 +2,7 @@
 
 This repository contains comprehensive files for retrieving data from a Kaggle Dataset to be used in a logistic regression model and a decision tree model to determine customer churn rates. The analysis and appropriate visuals will be displayed in the visuals folder.
 
-### Dataset Information:
-- Customers who left within the last month – the column is called Churn
-- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-Demographic info about customers – gender, age range, and if they have partners and dependents
-
-https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
-
-
-### Technologies Used:
-- Python (for API requests, data processing, data transforming)
-- DBT (transformation documentation)
-- SQL Server (for Data storage)
-- PowerBI (for Visuals)
-
-#### Lineage of columns used in the Logistic Regression final dataset for training 
-![image](https://github.com/user-attachments/assets/6bdfce1d-f74f-4465-885d-055a28f4fb2b) 
-
-#### Lineage of columns not used in Logistic Regression model due to multicollinearity
-![image](https://github.com/user-attachments/assets/05904784-8e0c-46b6-8edf-2db9ec02be14)
+### Data Analysis for Comparing Between Models
 
 After loading in the data, we can observe a linear relationship between the independent variable, and the log-odds of the dependent variable. This is a major assumption of the logistic regression. The model assumes this relationship for binary classification.
 ![image](https://github.com/user-attachments/assets/f0ff793c-fdaa-44c4-835f-5f89a6b98bec)
@@ -180,3 +161,24 @@ Comparing metrics between the models,
 
 \
 In terms of overall performance, Logistic Regression excels, however it's worth noting that the Decision Tree may be useful in recognizing more positive cases. Indicated with the increase in recall with Churn, if the company more prioritizes false negatives, then the Decision Tree may be the better option. However, if the company is more interested in positive predictions of whether or not a customer churns, the Logistic Regression may be more suitable, it really depends on the needs of this company. Another reason Logistic Regression is preferable is because it's a major assumption in the model that the individual features have a linear relationship to the log odds of the target variable. While Decision Trees thrive on data with complex relationships, if the features have this linearity, Logistic Regression in general, performs and generalizes better.  As shown from the previous graphic and the increase in performance and F1-Score may indicate that the Logistic Regression model would be better for this dataset.
+
+### Dataset Information:
+- Customers who left within the last month – the column is called Churn
+- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+Demographic info about customers – gender, age range, and if they have partners and dependents
+
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
+
+
+### Technologies Used:
+- Python (for API requests, data processing, data transforming)
+- DBT (transformation documentation)
+- SQL Server (for Data storage)
+- PowerBI (for Visuals)
+
+#### Lineage of columns used in the Logistic Regression final dataset for training 
+![image](https://github.com/user-attachments/assets/6bdfce1d-f74f-4465-885d-055a28f4fb2b) 
+
+#### Lineage of columns not used in Logistic Regression model due to multicollinearity
+![image](https://github.com/user-attachments/assets/05904784-8e0c-46b6-8edf-2db9ec02be14)
