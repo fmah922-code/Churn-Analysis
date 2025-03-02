@@ -16,7 +16,7 @@ Receiver Operating Characteristic (ROC) Curve
 ![image](https://github.com/user-attachments/assets/837d7cb8-2b56-4f46-807d-3c141db7287a)
 
 
-## Logistic Regression Model Building
+# Logistic Regression Model Building
 
 #### Hyperparameter Tuning
 
