@@ -175,6 +175,10 @@ In terms of overall performance, Logistic Regression excels, however it's worth 
 #### Lineage of columns not used in Logistic Regression model due to multicollinearity
 ![image](https://github.com/user-attachments/assets/05904784-8e0c-46b6-8edf-2db9ec02be14)
 
+#### PowerBI Visualizations after Analysis
+![image](https://github.com/user-attachments/assets/dcddde1d-650e-44a0-8fe8-d235488a898a)
+
+
 ### Dataset Information:
 - Customers who left within the last month – the column is called Churn
 - Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
