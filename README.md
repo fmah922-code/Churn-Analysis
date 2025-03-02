@@ -3,7 +3,7 @@
 This repository contains comprehensive files for retrieving data from a Kaggle Dataset to be used in a logistic regression model and a decision tree model to determine customer churn rates. The analysis and appropriate visuals will be displayed in the visuals folder.
 
 
-**Data Analysis For Comparing Between Models**
+**Data Analysis For Comparing Between Models**\
 After loading in the data, we can observe a linear relationship between the independent variable, and the log-odds of the dependent variable. This is a major assumption of the logistic regression. The model assumes this relationship for binary classification.
 ![image](https://github.com/user-attachments/assets/f0ff793c-fdaa-44c4-835f-5f89a6b98bec)
 
