@@ -161,6 +161,14 @@ Comparing metrics between the models,
 \
 In terms of overall performance, Logistic Regression excels, however it's worth noting that the Decision Tree may be useful in recognizing more positive cases. Indicated with the increase in recall with Churn, if the company more prioritizes false negatives, then the Decision Tree may be the better option. However, if the company is more interested in positive predictions of whether or not a customer churns, the Logistic Regression may be more suitable, it really depends on the needs of this company. Another reason Logistic Regression is preferable is because it's a major assumption in the model that the individual features have a linear relationship to the log odds of the target variable. While Decision Trees thrive on data with complex relationships, if the features have this linearity, Logistic Regression in general, performs and generalizes better.  As shown from the previous graphic and the increase in performance and F1-Score may indicate that the Logistic Regression model would be better for this dataset.
 
+#### SQL Server utilized for Data Storage
+
+[Raw Dataset]
+![image](https://github.com/user-attachments/assets/8af7a614-d5c2-4436-9b52-eb9850154546)
+
+[Cleaned Dataset for Logistic Regression Training]
+![image](https://github.com/user-attachments/assets/7b44056a-4e3b-4143-935d-de7c37f1b0b1)
+
 ### Dataset Information:
 - Customers who left within the last month – the column is called Churn
 - Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
