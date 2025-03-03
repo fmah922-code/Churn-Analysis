@@ -70,7 +70,8 @@ A p-value of < .05 indicates that the likelihood of obtaining the observed data,
 
 
 # Decision Tree Model Building
-![image](https://github.com/user-attachments/assets/13a47eff-026e-4f97-9ee7-b42155cf1162)
+![image](https://github.com/user-attachments/assets/0fda2c78-ba86-4342-bd88-274bd42cb65d)
+
 
 Although Decision Trees can train on complex non-linear relationships to determine the relationship between a feature and a  target variable, it can't understand categorical features that are expressed through strings like `'Yes'` or `'No'` / `'Female'` or `'Male'` so we must map to these to numerical values without necessarily needing to create indicator variables unlike with building a logistic regression model.
 
