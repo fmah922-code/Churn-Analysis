@@ -169,10 +169,10 @@ Based on our previous analysis, customers who use electronic checks or mailed ch
 
 #### SQL Server utilized for Data Storage
 
-[Raw Dataset]
+#### Raw Dataset
 ![image](https://github.com/user-attachments/assets/8af7a614-d5c2-4436-9b52-eb9850154546)
 
-[Cleaned Dataset for Logistic Regression Training]
+#### Cleaned Dataset for Logistic Regression Training
 ![image](https://github.com/user-attachments/assets/7b44056a-4e3b-4143-935d-de7c37f1b0b1)
 
 #### Lineage of columns used in the Logistic Regression final dataset for training 
