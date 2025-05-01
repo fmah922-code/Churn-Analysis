@@ -153,8 +153,8 @@ Comparing metrics between the models,
    - `Churn` from (**0.59 -> 0.71**) 
    - `Non-Churn` from (**0.85 -> 0.86**)
 - Increase & Decrease in `Recall`
-   - `Churn` from (**0.85 -> 0.91**) 
-   - `Non-Churn` from (**0.59 -> 0.58**)
+   - `Non-Churn` from (**0.85 -> 0.91**) 
+   - `Churn` from (**0.59 -> 0.58**)
 - Increase in `F1-Score`
    - `Churn` from (**0.59 -> 0.64**)
    - `Non-Churn` from (**0.85 -> 0.88**)
